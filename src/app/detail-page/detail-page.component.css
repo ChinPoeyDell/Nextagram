@@ -1,0 +1,17 @@
+#content {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#imageList {
+    width: 30%;
+    float: left;
+    text-align: center;
+    background: rgb(255, 255, 195);
+    margin: 3px;
+}
+
+#imageList img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,5 @@
+<div id="content">
+    <div id="userProfile" *ngFor="let user of users">
+        <app-user-page [userID]="user.id" [username]="user.username" [profileImage]="user.profileImage"></app-user-page>
+    </div>
+</div>
